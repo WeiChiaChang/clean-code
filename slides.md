@@ -54,224 +54,37 @@ h1 {
 </div>
 
 ---
-
-# 變數
-
-使用有意義且具備可讀性的名稱
-
-<h3 class="awful">❌ 糟糕的</h3>
-
-```javascript
-const yyyymmdstr = moment().format('YYYY/MM/DD');
-```
-
-<v-click>
-  <h3 class="adequate">✅ 適當的</h3>
-
-  ```javascript
-  const currentDate = moment().format('YYYY/MM/DD');
-  ```
-</v-click>
-
+src: ./variables/使用具有意義且可閱讀的名稱.md
 ---
 
-# 變數
-
-相同類型的變數使用相同的名稱
-
-<h3 class="awful">❌ 糟糕的</h3>
-
-```javascript
-getUserInfo();
-getClientData();
-getCustomerRecord();
-```
-
-<v-click>
-  <h3 class="adequate">✅ 適當的</h3>
-
-  ```javascript
-  getUser();
-  ```
-</v-click>
-
+---
+src: ./variables/相同類型的變數使用相同的名稱.md
 ---
 
-# 變數
-
-使用可搜尋的名稱
-
-<h3 class="awful">❌ 糟糕的</h3>
-
-```javascript
-// 86400000 代表什麼意義？
-setTimeout(blastOff, 86400000);
-```
-
-<v-click>
-  <h3 class="adequate">✅ 適當的</h3>
-
-  ```javascript
-  // 宣告（Declare）一個有意義的常數（constants）
-  const MILLISECONDS_IN_A_DAY = 86400000;
-
-  setTimeout(blastOff, MILLISECONDS_IN_A_DAY);
-  ```
-</v-click>
-
+---
+src: ./variables/使用可搜尋的名稱.md
 ---
 
-# 變數
-
-使用可解釋的變數
-
-<h3 class="awful">❌ 糟糕的</h3>
-
-```javascript
-const address = 'One Infinite Loop, Cupertino 95014';
-const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
-saveCityZipCode(
-  address.match(cityZipCodeRegex)[1],
-  address.match(cityZipCodeRegex)[2]
-);
-```
-
-<v-click>
-  <h3 class="adequate">✅ 適當的</h3>
-
-```ts {3}
-const address = 'One Infinite Loop, Cupertino 95014';
-const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
-const [, city, zipCode] = address.match(cityZipCodeRegex) || [];
-saveCityZipCode(city, zipCode);
-```
-</v-click>
-
+---
+src: ./variables/使用可解釋的變數.md
 ---
 
-# 變數
-
-避免心理作用（Mental Mapping）
-
-<h3 class="awful">❌ 糟糕的</h3>
-
-```javascript
-const locations = ['Austin', 'New York', 'San Francisco'];
-locations.forEach(l => {
-  doStuff();
-  doSomeOtherStuff();
-  // ...
-  // ...
-  // ...
-  // 等等，這 `l` 是…？
-  dispatch(l);
-});
-```
-
+---
+src: ./variables/避免心理作用1.md
 ---
 
-# 變數
-
-避免心理作用（Mental Mapping）
-
-<h3 class="adequate">✅ 適當的</h3>
-
-```javascript
-const locations = ['Austin', 'New York', 'San Francisco'];
-locations.forEach(location => {
-  doStuff();
-  doSomeOtherStuff();
-  // ...
-  // ...
-  // ...
-  dispatch(location);
-});
-```
+---
+src: ./variables/避免心理作用2.md
 ---
 
-# 變數
-
-避免使用不必要的描述（Context）
-
-<h3 class="awful">❌ 糟糕的</h3>
-
-```javascript
-const Car = {
-  carMake: 'Honda',
-  carModel: 'Accord',
-  carColor: 'Blue'
-};
-
-function paintCar(car) {
-  car.carColor = 'Red';
-}
-```
+---
+src: ./variables/避免使用不必要的描述1.md
 ---
 
-# 變數
-
-避免使用不必要的描述（Context）
-
-<h3 class="adequate">✅ 適當的</h3>
-
-```javascript
-const Car = {
-  make: 'Honda',
-  model: 'Accord',
-  color: 'Blue'
-};
-
-function paintCar(car) {
-  car.color = 'Red';
-}
-```
+---
+src: ./variables/避免使用不必要的描述2.md
 ---
 
-# 變數
-
-使用預設參數代替條件判斷
-
-<h3 class="awful">❌ 糟糕的</h3>
-
-```javascript
-function createMicrobrewery(name) {
-  const breweryName = name || 'Hipster Brew Co.';
-  // ...
-}
-```
-
-<v-click>
-  <h3 class="adequate">✅ 適當的</h3>
-
-  ```javascript
-  function createMicrobrewery(name = 'Hipster Brew Co.') {
-    // ...
-  }
-  ```
-</v-click>
-
 ---
-layout: two-cols
+src: ./variables/使用預設參數代替條件判斷.md
 ---
-
-<template v-slot:default>
-
-# <h3 class="awful">❌ 糟糕的</h3>
-
-```ts {2-3|5|all}
-function add(
-  a: Ref<number> | number,
-  b: Ref<number> | number
-) {
-  return computed(() => unref(a) + unref(b))
-}
-```
-
-</template>
-<template v-slot:right>
-
-# <h3 class="adequate">✅ 適當的</h3>
-
-This shows on the right
-
-</template>
