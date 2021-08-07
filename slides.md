@@ -181,3 +181,28 @@ src: ./functions/避免型別檢查之二2.md
 ---
 src: ./functions/別過度優化.md
 ---
+
+---
+
+<div class="slidev-layout cover text-center">
+  <div class="my-auto w-full">
+    <h1>物件與資料結構</h1>
+    <p>Objects & Data Structure</p>
+  </div>
+</div>
+
+---
+src: ./functions/使用getters與setters1.md
+---
+
+---
+src: ./functions/使用getters與setters2.md
+---
+
+---
+src: ./functions/讓物件擁有私有成員1.md
+---
+
+---
+src: ./functions/讓物件擁有私有成員2.md
+---

@@ -21,3 +21,8 @@ p {
 h3 {
   opacity: 1 !important;
 }
+
+/* layout: two-cols setting */
+.grid-cols-2 {
+  grid-column-gap: 1rem;
+}
