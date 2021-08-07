@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.22.7",
+    "@slidev/theme-bricks": "0.0.2",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "name": "clean-code"
+}

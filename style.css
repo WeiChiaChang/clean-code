@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap');
+h1, p, h3 {
+  font-family: 'Noto Sans TC', sans-serif !important;
+}
+.title,
+.subtitle {
+	font-family: "Sigmar One", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif !important;
+}
+h1 {
+  color: #4EC5D4;
+}
+p {
+  margin-top: 4px !important;
+}
+.awful {
+  color: red;
+}
+.adequate {
+  color: green;
+}
+h3 {
+  opacity: 1 !important;
+}
