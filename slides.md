@@ -88,3 +88,96 @@ src: ./variables/避免使用不必要的描述2.md
 ---
 src: ./variables/使用預設參數代替條件判斷.md
 ---
+
+---
+
+<div class="slidev-layout cover text-center">
+  <div class="my-auto w-full">
+    <h1>函數</h1>
+    <p>Functions</p>
+  </div>
+</div>
+
+---
+src: ./functions/參數1.md
+---
+
+---
+src: ./functions/參數2.md
+---
+
+---
+src: ./functions/參數3.md
+---
+
+---
+src: ./functions/一個函數只做一件事情.md
+---
+
+---
+src: ./functions/函數名稱應該說明它做的內容.md
+---
+
+---
+src: ./functions/移除重複的程式碼1.md
+---
+
+---
+src: ./functions/移除重複的程式碼2.md
+---
+
+---
+src: ./functions/移除重複的程式碼3.md
+---
+
+---
+src: ./functions/設定Objects的預設值1.md
+---
+
+---
+src: ./functions/設定Objects的預設值2.md
+---
+
+---
+src: ./functions/不要使用旗標作為參數.md
+---
+
+---
+src: ./functions/避免副作用.md
+---
+
+---
+src: ./functions/避免副作用之二.md
+---
+
+---
+src: ./functions/避免全域函數.md
+---
+
+---
+src: ./functions/使用函數式設計代替命令式程式設計1.md
+---
+
+---
+src: ./functions/使用函數式設計代替命令式程式設計2.md
+---
+
+---
+src: ./functions/避免負面狀態.md
+---
+
+---
+src: ./functions/避免型別檢查.md
+---
+
+---
+src: ./functions/避免型別檢查之二1.md
+---
+
+---
+src: ./functions/避免型別檢查之二2.md
+---
+
+---
+src: ./functions/別過度優化.md
+---
