@@ -206,3 +206,32 @@ src: ./functions/讓物件擁有私有成員1.md
 ---
 src: ./functions/讓物件擁有私有成員2.md
 ---
+
+---
+
+<div class="slidev-layout cover text-center">
+  <div class="my-auto w-full">
+    <h1>類別</h1>
+    <p>Classes</p>
+  </div>
+</div>
+
+---
+src: ./classes/類別語法偏好使用ES6.md
+---
+
+---
+src: ./classes/使用方法鏈1.md
+---
+
+---
+src: ./classes/使用方法鏈2.md
+---
+
+---
+src: ./classes/偏好組合更甚於繼承1.md
+---
+
+---
+src: ./classes/偏好組合更甚於繼承2.md
+---
