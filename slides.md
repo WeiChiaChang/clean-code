@@ -286,12 +286,6 @@ src: ./SOLID/依賴反轉原則2.md
 ---
 
 ---
-src: ./testing/每個測試只測試一個概念1.md
----
-
----
-src: ./testing/每個測試只測試一個概念2.md
----
 
 <div class="slidev-layout cover text-center">
   <div class="my-auto w-full">
@@ -299,6 +293,14 @@ src: ./testing/每個測試只測試一個概念2.md
     <p>Testing</p>
   </div>
 </div>
+
+---
+src: ./testing/每個測試只測試一個概念1.md
+---
+
+---
+src: ./testing/每個測試只測試一個概念2.md
+---
 
 ---
 
@@ -309,6 +311,8 @@ src: ./testing/每個測試只測試一個概念2.md
   </div>
 </div>
 
+---
+src: ./concurrency/async.md
 ---
 
 <div class="slidev-layout cover text-center">
