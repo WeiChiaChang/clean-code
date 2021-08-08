@@ -355,3 +355,14 @@ src: ./comments/不要在程式碼中保留被註解掉的程式碼.md
 ---
 src: ./comments/不要留有日誌式的註解.md
 ---
+
+---
+layout: image-right
+image: ./clean-code.png
+---
+
+## Reference
+
+- [無瑕的程式碼](https://www.books.com.tw/products/0010579897?gclid=CjwKCAjwgb6IBhAREiwAgMYKRh-KFSKDZgXfqjoVARATMzc8kwVy7Ct1w6kEcUgbAaXd4GKK45E_PxoCDqkQAvD_BwE)
+- [ryanmcdermott/clean-code-javascript](https://github.com/AllJointTW/clean-code-javascript)
+- [sli.dev](https://sli.dev/)

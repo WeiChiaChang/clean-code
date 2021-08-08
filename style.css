@@ -34,3 +34,7 @@ h3 {
 	overflow-y: auto;
   height: 56vh;
 }
+
+.slidev-page-70 + div {
+	background-size: contain !important;
+}
