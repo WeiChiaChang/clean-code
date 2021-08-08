@@ -285,6 +285,14 @@ src: ./SOLID/依賴反轉原則1.md
 src: ./SOLID/依賴反轉原則2.md
 ---
 
+---
+src: ./testing/每個測試只測試一個概念1.md
+---
+
+---
+src: ./testing/每個測試只測試一個概念2.md
+---
+
 <div class="slidev-layout cover text-center">
   <div class="my-auto w-full">
     <h1>測試</h1>
