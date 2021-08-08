@@ -315,12 +315,22 @@ src: ./testing/每個測試只測試一個概念2.md
 src: ./concurrency/async.md
 ---
 
+---
+
 <div class="slidev-layout cover text-center">
   <div class="my-auto w-full">
     <h1>錯誤處理</h1>
     <p>Error Handling</p>
   </div>
 </div>
+
+---
+src: ./errorHandling/不要忽略捕捉到的錯誤.md
+---
+
+---
+src: ./errorHandling/不要忽略被拒絕的Promises.md
+---
 
 ---
 
