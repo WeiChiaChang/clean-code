@@ -26,3 +26,11 @@ h3 {
 .grid-cols-2 {
   grid-column-gap: 1rem;
 }
+
+.slidev-page-50 .shiki-container,
+.slidev-page-52 .shiki-container,
+.slidev-page-54 .shiki-container,
+.slidev-page-56 .shiki-container {
+	overflow-y: auto;
+  height: 56vh;
+}

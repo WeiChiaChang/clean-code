@@ -235,3 +235,95 @@ src: ./classes/偏好組合更甚於繼承1.md
 ---
 src: ./classes/偏好組合更甚於繼承2.md
 ---
+
+---
+
+<div class="slidev-layout cover text-center">
+  <div class="my-auto w-full">
+    <h1>物件導向基本原則</h1>
+    <p>SOLID</p>
+  </div>
+</div>
+
+---
+src: ./SOLID/單一功能原則1.md
+---
+
+---
+src: ./SOLID/單一功能原則2.md
+---
+
+---
+src: ./SOLID/開閉原則1.md
+---
+
+---
+src: ./SOLID/開閉原則2.md
+---
+
+---
+src: ./SOLID/裡氏替換原則1.md
+---
+
+---
+src: ./SOLID/裡氏替換原則2.md
+---
+
+---
+src: ./SOLID/介面隔離原則1.md
+---
+
+---
+src: ./SOLID/介面隔離原則2.md
+---
+
+---
+src: ./SOLID/依賴反轉原則1.md
+---
+
+---
+src: ./SOLID/依賴反轉原則2.md
+---
+
+<div class="slidev-layout cover text-center">
+  <div class="my-auto w-full">
+    <h1>測試</h1>
+    <p>Testing</p>
+  </div>
+</div>
+
+---
+
+<div class="slidev-layout cover text-center">
+  <div class="my-auto w-full">
+    <h1>並發</h1>
+    <p>Concurrency</p>
+  </div>
+</div>
+
+---
+
+<div class="slidev-layout cover text-center">
+  <div class="my-auto w-full">
+    <h1>錯誤處理</h1>
+    <p>Error Handling</p>
+  </div>
+</div>
+
+---
+
+<div class="slidev-layout cover text-center">
+  <div class="my-auto w-full">
+    <h1>格式化</h1>
+    <p>Formatting</p>
+  </div>
+</div>
+
+---
+
+<div class="slidev-layout cover text-center">
+  <div class="my-auto w-full">
+    <h1>註解</h1>
+    <p>Comments</p>
+  </div>
+</div>
