@@ -35,7 +35,6 @@ info: |
 - **測試** - Testing
 - **並發** - Concurrency
 - **錯誤處理** - Error Handling
-- **格式化** - Formatting
 - **註解** - Comments
 
 <style>
@@ -336,16 +335,23 @@ src: ./errorHandling/不要忽略被拒絕的Promises.md
 
 <div class="slidev-layout cover text-center">
   <div class="my-auto w-full">
-    <h1>格式化</h1>
-    <p>Formatting</p>
-  </div>
-</div>
-
----
-
-<div class="slidev-layout cover text-center">
-  <div class="my-auto w-full">
     <h1>註解</h1>
     <p>Comments</p>
   </div>
 </div>
+
+---
+src: ./comments/只對商業邏輯複雜的部分撰寫註解1.md
+---
+
+---
+src: ./comments/只對商業邏輯複雜的部分撰寫註解2.md
+---
+
+---
+src: ./comments/不要在程式碼中保留被註解掉的程式碼.md
+---
+
+---
+src: ./comments/不要留有日誌式的註解.md
+---
