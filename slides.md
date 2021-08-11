@@ -358,7 +358,7 @@ src: ./comments/不要留有日誌式的註解.md
 
 ---
 layout: image-right
-image: ./clean-code.png
+image: https://user-images.githubusercontent.com/13506626/128979144-7f7ef7c0-d8a1-4eba-a13f-d6c12563d51b.png
 ---
 
 ## Reference
